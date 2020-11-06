@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 
 
-const PostCreate = (event) => {
+const PostCreate = () => {
     const [title, setTitle] = useState('');
 
     const handleClick = async (event) => {
